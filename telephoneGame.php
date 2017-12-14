@@ -1,3 +1,4 @@
+<?php
 function telephoneGame($m) {
     $answer = -1;
     for($i=1;$i<=(count($m)-1);$i++)
@@ -9,3 +10,4 @@ function telephoneGame($m) {
     }
     return $a;
 }
+?>
